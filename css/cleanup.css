@@ -1,1 +1,23 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: none;
+}
+
+.tag-1 + #tag-2{
+    display: none;
+}
+
+#wall .parent #tag-4 {
+    display: none;
+}
+
+#tag-6 {
+    display: none;
+    text-align: center;
+    background-color: orange;
+}
+
+#wall #tag-4 {
+    display: none;
+    background-color: yellow;
+}
